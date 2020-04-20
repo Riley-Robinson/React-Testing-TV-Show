@@ -14,7 +14,7 @@ describe ('App', () => {
 
 
     it ('Displays correct name starting with api data', async () => {
-        const text = await wrapper.findByText('Select Season');
+        const text = await wrapper.findByText('Select a season');
         expect(text).toBeInTheDocument();
         expect(text).toBeVisible();
     });
