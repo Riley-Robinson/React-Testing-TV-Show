@@ -1,7 +1,7 @@
     import axios from 'axios';
 
 
-export const fetchShow = () => {
+const fetchShow = () => {
     return axios
     .get(
         'https://api.tvmaze.com/singlesearch/shows?q=blacklist&embed=episodes'
@@ -10,3 +10,4 @@ export const fetchShow = () => {
         return res;
       });
     };
+    export default fetchShow;
