@@ -4,7 +4,7 @@
 const fetchShow = () => {
     return axios
     .get(
-        'https://api.tvmaze.com/singlesearch/shows?q=blacklist&embed=episodes'
+        'https://api.tvmaze.com/singlesearch/shows?q=futurama&embed=episodes'
     )
       .then(res => {
         return res;
