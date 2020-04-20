@@ -22,6 +22,7 @@ body {
 
 .poster-img {
   width: 400px;
+  margin: 5% 0;
 }
 
 .Dropdown-root {
@@ -32,7 +33,7 @@ body {
   border: 1px solid white;
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 16px;
+  margin-top: 5%;
 }
 
 .Dropdown-option,
