@@ -8,6 +8,7 @@ const fetchShow = () => {
     )
       .then(res => {
         return res;
+        
       });
     };
     export default fetchShow; 
